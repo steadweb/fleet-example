@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: aspnet-demo
+spec:
+  ingressClassName: traefik
+  rules:
+    - host: aspnet.f1arcade.steadweb.com
+      http:
+        paths:
+          - backend:
+              service:
+                name: aspnet-demo
+                port:
+                  number: 80
+            path: /
+            pathType: Prefix

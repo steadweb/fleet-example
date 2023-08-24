@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: aspnet-demo
+data:
+  NODE_ENV: development
+  BOOKING_URL: http://jarvis-bookings-api.default.svc.cluster.local
+  AUTH_URL: https://accounts.eu1.gigya.com/accounts
