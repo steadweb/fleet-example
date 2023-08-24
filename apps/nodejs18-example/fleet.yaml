@@ -1,0 +1,10 @@
+namespace: nodejs18-example
+# imageScans:
+# - policy:
+#     semver:
+#       range: "*"
+#     alphabetical:
+#       order: asc
+#   image: "mcr.microsoft.com/dotnet/samples:aspnetapp"
+#   tagName: latest
+#   interval: 5m
