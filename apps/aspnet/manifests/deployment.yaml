@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: aspnet-demo
-          image: mcr.microsoft.com/dotnet/samples:aspnetapp aspnet-demo-scan # {"$imagescan": "aspnet-demo-scan"}
+          image: mcr.microsoft.com/dotnet/samples:aspnetapp # {"$imagescan": "aspnet-demo-scan"}
           envFrom:
             - configMapRef:
                 name: aspnet-demo
