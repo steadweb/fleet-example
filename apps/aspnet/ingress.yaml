@@ -5,7 +5,7 @@ metadata:
 spec:
   ingressClassName: traefik
   rules:
-    - host: aspnet.f1arcade.steadweb.com
+    - host: aspnet-demo.f1arcade.steadweb.com
       http:
         paths:
           - backend:
