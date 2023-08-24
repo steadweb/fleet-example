@@ -6,5 +6,5 @@ imageScans:
     alphabetical:
       order: asc
   image: "mcr.microsoft.com/dotnet/samples:aspnetapp"
-  tagName: latest
+  tagName: aspnet-demo-scan
   interval: 5m
