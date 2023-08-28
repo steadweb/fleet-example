@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nodejs18-example
-          image: ghcr.io/steadweb/node18-example:v0.1.0
+          image: ghcr.io/steadweb/node18-example:v0.1.1
           envFrom:
             - configMapRef:
                 name: nodejs18-example
