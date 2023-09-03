@@ -5,7 +5,7 @@ metadata:
 spec:
   ingressClassName: traefik
   rules:
-    - host: hello-world.f1arcade.steadweb.com
+    - host: nodejs18example.f1arcade.steadweb.com
       http:
         paths:
           - backend:
